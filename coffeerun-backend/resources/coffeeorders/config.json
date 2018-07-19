@@ -1,0 +1,45 @@
+{
+	"type": "Collection",
+	"properties": {
+		"emailAddress": {
+			"name": "emailAddress",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "emailAddress",
+			"order": 0
+		},
+		"coffeeOrder": {
+			"name": "coffeeOrder",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "coffeeOrder",
+			"order": 1
+		},
+		"size": {
+			"name": "size",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "size",
+			"order": 2
+		},
+		"flavor": {
+			"name": "flavor",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "flavor",
+			"order": 3
+		},
+		"coffeeRating": {
+			"name": "coffeeRating",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "coffeeRating",
+			"order": 4
+		}
+	}
+}
